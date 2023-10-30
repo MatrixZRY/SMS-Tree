@@ -1,5 +1,14 @@
 import { createApp } from 'vue';
 
+/**重置样式*/
+import'@unocss/reset/tailwind.css'
+import'./style.css'
+import'uno.css'
+
+import App from'./App.vue'
+
+createApp(App).mount('#app')
+
 import * as ElementPlusIconsVue from '@element-plus/icons-vue';
 
 import App from './components/App.vue';
